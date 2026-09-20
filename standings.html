@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCSR Rising — Standings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">MR</span>
+      <span><strong>MCSR Rising</strong><small>IRON 1 → GOLD 1</small></span>
+    </a>
+    <nav>
+      <a href="index.html">Playoffs</a>
+      <a href="matches.html">Matches</a>
+      <a class="active" href="standings.html">Standings</a>
+    </nav>
+    <button class="mobile-menu" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">SEASON 01</p>
+      <h1>Overall <span>Standings</span></h1>
+      <p class="hero-copy">The combined MCSR Rising tournament standings. There are no rank filters.</p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-title">
+        <div>
+          <p class="eyebrow">OVERALL</p>
+          <h2>Standings</h2>
+        </div>
+        <span class="count" id="standings-count">16</span>
+      </div>
+
+      <div class="standings-table-wrap">
+        <table class="standings-table">
+          <thead>
+            <tr>
+              <th>POS</th>
+              <th>PLAYER</th>
+              <th>RANK</th>
+              <th>W</th>
+              <th>L</th>
+              <th>MAPS</th>
+              <th>STATUS</th>
+            </tr>
+          </thead>
+          <tbody id="standings-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 MCSR Rising</span>
+    <span>Playoffs: BO5 · Grand Final: BO7.</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

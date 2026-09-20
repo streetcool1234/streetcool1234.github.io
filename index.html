@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCSR Rising — Playoffs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">MR</span>
+      <span><strong>MCSR Rising</strong><small>IRON 1 → GOLD 1</small></span>
+    </a>
+    <nav>
+      <a class="active" href="index.html">Playoffs</a>
+      <a href="matches.html">Matches</a>
+      <a href="standings.html">Standings</a>
+    </nav>
+    <button class="mobile-menu" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">SEASON 01 · PLAYOFFS</p>
+        <h1>MCSR <span>Rising</span></h1>
+        <p class="hero-copy">The competitive playoff series for Minecraft speedrunners climbing from Iron 1 through Gold 1.</p>
+      </div>
+      <div class="hero-stats">
+        <div><strong>16</strong><span>PLAYERS</span></div>
+        <div><strong>4</strong><span>ROUNDS</span></div>
+        <div><strong>BO5</strong><span>SERIES</span></div>
+      </div>
+    </section>
+
+    <section class="section-header">
+      <div>
+        <p class="eyebrow">LIVE BRACKET</p>
+        <h2>Season 01 Playoffs</h2>
+      </div>
+      <div class="series-setting">PLAYOFFS: BO5 · FINAL: BO7</div>
+    </section>
+
+    <section class="bracket-wrap" aria-label="MCSR Rising playoff bracket">
+      <div class="bracket" id="bracket"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 MCSR Rising</span>
+    <span>Playoff rounds: BO5 · Grand Final: BO7.</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
